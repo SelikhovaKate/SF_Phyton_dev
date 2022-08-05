@@ -3,10 +3,10 @@ TOKEN = "5487981033:AAGsTP9zYvAP0BxYnMZwMRypxX-AFY4QQe4"# токен бота Te
 API_ACCESS_KEY = '57d1e5ed11b71528d7cc23fe0840ba82' # API Access Key из exchangeratesapi.io
 
 exchanges = {
-    'евро': 'EUR',
-    'доллар': 'USD',
-    'шекель': 'ILS',
-    'иена': 'JPY',
+    'евро EUR': 'EUR',
+    'доллар USD': 'USD',
+    'шекель ILS': 'ILS',
+    'иена JPY': 'JPY',
 }
 # если вдруг пользователь будет по разному водить валюту
 ext_exchanges = {

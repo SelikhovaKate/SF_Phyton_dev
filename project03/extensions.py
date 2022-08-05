@@ -31,7 +31,7 @@ class CurrenciesConverter:
             raise APIException(f'Таких денег у нас нет: {values[1]}')
 
         if c1 == c2:
-            raise APIException(f'Вы пытаетесь конвертировать одинаковые валюты {c1}!')
+            raise APIException(f'Вы точно хотите поменять {c1} на {c1}?')
 
         try:
             sum = float(values[2])
